@@ -7,4 +7,18 @@
  body{
     background-color: var(--cor-de-fundo);}
 
-    
+    @import url("styles/header.css");
+:root{
+ --cor-de-fundo:#EBECEE;
+ --branco:#FFFFFF;
+ --laranja: #FECD2F;
+--roxo: #5c066d9c;
+--fonte-principal:"Poppins";
+}
+
+ body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+ }
